@@ -1,0 +1,45 @@
+html{
+    height: 100%
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+body{
+
+    background-image: url(https://cdn.pixabay.com/photo/2014/05/18/11/25/pizza-346985_960_720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    text-align: center;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.37);
+    height: 40px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    
+}
+.partone{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+}
+ a{
+    text-align: center;
+    text-decoration: none;
+    
+}
+nav a{
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+footer p{
+    font-size: 18px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.418);
+}
