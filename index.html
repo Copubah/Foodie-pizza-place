@@ -1,153 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foodie pizza</title>
-    <link rel="stylesheet" href="static/css/styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foodie</title>
+  <link rel="stylesheet" href="static/css/styles.css">
 </head>
 <body>
-    <header>
-        <div class="view landing">
-          <div id="overlay">
-              <nav class="navbar navbar-expand-sm bg-success navbar-dark fixed-top">
-                <a class="navbar-brand" href="#">Foodie pizza</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse align-items-center" id="collapsibleNavbar">
-                  <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#variety">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#contact">Order online</a>
-                      </li> 
-                      <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact Us</a>
-                      </li>
-                    </ul>
-                  </div>  
-                </nav>
-                <div class="mask rgba-black-light align-items-center">
-                  <div class="container" id="head">
-                    <div class="row">
-                      <div class="col-md-12 mb-4 white-text text-center text">
-                        <h1 class="h1-reponsive gold-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 pulse"><strong>Foodie pizza</strong></h1>
-                        <h5 class="text-uppercase mb-4 gold-text floater"><strong>Best Pizza Shop in Town!</strong></h5>
-                        <a class="btn btn-orange button floater" href="#make-order">  Order Now!</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="arrow bounce"> <a href="#variety"> <img src="images/arrow.ico" alt=" arrow"width="40px"></a></div>
-            </div>
-          </div>
-        </header>
-          <div class="container carousel slide carousel-multi-item" data-ride="carousel" id="variety">
-            <div class="controls-top "> 
-              <h2>Our Varieties</h2>
-            </div>
-            <div class="carousel-inner" role="listbox">
-              <div class="carousel-item active">
-                <div class="col-md-4">
-                  <div class="card mb-2">
-                    <img class="card-img-top" src="static/images/pizza 1.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Chicken Tikka</h5>
-                    </div>
-                  </div>
-                </div>
-          
-                <div class="col-md-4">
-                  <div class="card mb-2">
-                    <img class="card-img-top" src="static/images/pizza two.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Pepperoni Pizza</h5>
-                    </div>
-                  </div>
-                </div>
-          
-                <div class="col-md-4">
-                  <div class="card mb-2">
-                    <img class="card-img-top" src="static/images/pizza3.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Meat Pizza</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="col-md-4">
-                  <div class="card mb-2">
-                    <img class="card-img-top" src="static/images/pizza-3000285_640.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Hawaiian Pizza</h5>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="card mb-2">
-                      <img class="card-img-top" src="static/images/pizza-5275191_640.jpg" alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title">BBQ chicken  Pizza</h5>
-                      </div>
-                    </div>
-                  </div>
-            
-                  <div class="col-md-4">
-                    <div class="card mb-2">
-                      <img class="card-img-top" src="static/images/pizza-3000285_640.png" alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title"> Mushroom pizza</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="container-fluid order" id="make-order">
-                <div class="order-overlay">
-                  <div class="controls-top text-center" id="Order-now"> 
-                    <h2>Order Here</h2>
-                  </div>
-                  <h2>Order your pizza here and we will deliver it to you at your door step!</h2>
-                  <div class="row">
-                      <div class="col-sm-5">
-                        <form action="">
-                            <label for="select">Select Your Flavor</label>
-                            <select class="browser-default custom-select custom-select-md mb-3 name">
-                              <!-- <option selected value="choose">Choose your flavor</option> -->
-                              <option value="Chicken Tikka">Chicken Tikka</option>
-                              <option value="PeriPeri Pizza">Pepperoni</option>
-                              <option value="Raspberry Dessert Pizza">Meat pizza</option>
-                              <option value="Chicken Alfredo Pizza">Hawaiian Pizza</option>
-                              <option value="Sunchoke Pizza">BBQ chicken Pizza</option>
-                              <option value="Buffalo Chicken Sticks">Mushroom pizza</option>
-                            </select>
-                          <label for="select">Select Size</label>
-                          <select class="browser-default custom-select custom-select-md mb-3" id="size">
-                            <option selected value="0">Select size here</option>
-                            <option value="large">Large -- sh. 1200</option>
-                            <option value="medium">Medium -- sh. 850</option>
-                            <option value="small">Small -- sh. 600</option>
-                          </select>
-                          <label for="crust">Choose your favorite Crust!</label>
-                            <select class="browser-default custom-select custom-select-md mb-3" id="crust">
-                                <option selected value="0">Select your preferred crust!</option>
-                                <option value="Crispy">Crispy -- sh. 200</option>
-                  <option value="Stuffed">Stuffed -- sh. 150</option>
-                  <option value="Gluten-free">Gluten-free-- sh. 180</option>
+  <header>
+    <nav>
+        <div class="logo">Foodie pizza</div>
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">Order online</a>
+            <a href="#">Contact us</a>
+        </div>
+    </nav>
+    </header>
+    <div class="container-fluid order" id="make-order">
+      <div class="order-overlay">
+        <div class="controls-top text-center" id="Order-now"> 
+          <h1>Place order</h1>
+        </div>
+        <h2>Order your pizza here,free deliveries within a radious of 5km!</h2>
+        <div class="row">
+            <div class="col-sm-5">
+              <form action="">
+                  <label for="select">Select Your Flavor</label>
+                  <select class="browser-default custom-select custom-select-md mb-3 name">
+                    <!-- <option selected value="choose">Choose your flavor</option> -->
+                    <option value="Chicken Tikka">Chicken Tikka</option>
+                    <option value="PeriPeri Pizza">Beef Pizza</option>
+                    <option value="Raspberry Dessert Pizza">Hawaiian Pizza</option>
+                    <option value="Chicken Alfredo Pizza">Peperroni Pizza</option>
+                    <option value="Sunchoke Pizza">Mushroom Pizza</option>
+                    <option value="Buffalo Chicken Sticks">Vegetable pizza</option>
+                  </select>
+                <label for="select">Select Size</label>
+                <select class="browser-default custom-select custom-select-md mb-3" id="size">
+                  <option selected value="0">Select size here</option>
+                  <option value="large">Large -- sh. 1200</option>
+                  <option value="medium">Medium -- sh. 850</option>
+                  <option value="small">Small -- sh. 600</option>
                 </select>
-              <label for="Toppings">Select Your Toppings at sh. 50 each</label><br>
-                <div class="custom-control custom-checkbox custom-control-inline">
-                  <input type="checkbox" class="custom-control-input" id="Sausage" value="Sausage" name="toppings">
-                  <label class="custom-control-label" for="Sausage">Sausage</label>
-                </div>
-                <div class="custom-control custom-checkbox custom-control-inline">
-                  <input type="checkbox" class="custom-control-input" id="Bacon" value="Bacon" name="toppings">
-                  <label class="custom-control-label" for="Bacon">Bacon</label>
+                <label for="crust">Choose your favorite Crust!</label>
+                  <select class="browser-default custom-select custom-select-md mb-3" id="crust">
+                      <option selected value="0">Select your preferred crust!</option>
+                    <option value="Crispy">Crispy -- sh. 200</option>
+                    <option value="Stuffed">Stuffed -- sh. 150</option>
+                    <option value="Gluten-free">Gluten-free-- sh. 180</option>
+                  </select>
+                <label for="Toppings">Select Your Toppings at sh. 50 each</label><br>
+                  <div class="custom-control custom-checkbox custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="Sausage" value="Sausage" name="toppings">
+                    <label class="custom-control-label" for="Sausage">Sausage</label>
+                  </div>
+                  <div class="custom-control custom-checkbox custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="Bacon" value="Bacon" name="toppings">
+                    <label class="custom-control-label" for="Bacon">Bacon</label>
                 </div>
                 <div class="custom-control custom-checkbox custom-control-inline">
                   <input type="checkbox" class="custom-control-input" id="Mushrooms" value="Mushrooms" name="toppings">
@@ -160,10 +71,7 @@
           </div>
           <div class="col-sm-7">
             <div id="information">
-              <p>Your order will be processed and delivered within one hour of placing.</p>
-              <p>Make sure you have the total amout for the order during order delivery delivery.</p>
-              <p>Incase of any comment of complaint, Please reach out to us as fast as possible.</p>
-              <p id="regards">Regards, Management</p>
+              <p style="text-align: center;">Your order will be processed as soon as possible</p>
             </div>
             <div class="choise">
               <h2>Your Order is:</h2>
@@ -210,44 +118,7 @@
           </div>
       </div>
     </div>
-</div>
-
-<div class="container-fluid bg-default" id="contact">
-    <div class="controls-top "> 
-        <h2>Contact Us</h2>
-      </div>
-    <div class="row" id="contactdetails">
-      <div class="col-md-1">
-         
-      </div>
-      <div class="col-md-3 text-justify">
-        <h2>Location</h2>
-        <p>Pizza Deliciosa</p>
-        <p>Maasai Mall | Ongata Rongai</p>
-        <p>00453,Rongai </p>
-      </div>
-      <div class="col-md-3">
-        <h2>Customer Care</h2>
-         <p>mikeycharlesm7@gmail.com</p>
-         <p>Tell: 02200346476</p> 
-         <p>Phone: +254704220133</p>
-      </div>
-      <div class="col-md-4">
-          <div class="mapouter">
-            <div class="gmap_canvas">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.895282684887!2d36.87659121529396!3d-1.2324779359187585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f15dd4e9edb19%3A0x8df004aaaf625f93!2sGarden%20City%20Mall!5e0!3m2!1sen!2ske!4v1624775918344!5m2!1sen!2ske" width="1024" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-            <style>.mapouter{position:relative;text-align:right;height:180px;width:350px;}.gmap_canvas {overflow:hidden;background:none!important;height:180px;width:350px;}</style>
-          </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="row">
-      <div class="container text-center footer">
-        <p>&copy; 2019 | Pizza Deliciosa</p>
-      </div>
-    </div>
-    </div 
-            
+  </div>
+  
 </body>
 </html>
