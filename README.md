@@ -1,5 +1,5 @@
 ## Project name
- - Foodie pizza place
+ - Foodie pizza 
  ## Author
  (Charles Opuba)
  ## Description
@@ -15,3 +15,24 @@
 - Have an option to have the pizza delivered or not.  If delivered I want to be alerted how much the delivery charge will be.
 - If I want my pizza to be delivered, I want to be prompted to enter where the delivery should be made and an alert saying '' your order will be delivered to your location"
 - See a checkout button that when clicked shows the total amount charged for the orders.
+## Technologies
+- Html
+- CSS
+- Javascript
+- Jquery
+- Git
+- Bootstrap
+### Installation
+- Open your terminal
+- Use this command to clone `$ git clone[]
+- This will clone the repositoty into your local folder
+- You are now free to proceed
+
+### Licence information
+This project is under MIT license, Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+-Copyright 2021 Charles Opuba
